@@ -1,0 +1,52 @@
+/* HeroDetailComponent's private CSS styles */
+
+label {
+    color: #095066;
+    font-weight: bold;
+}
+
+h2 {
+    color: #095066;
+}
+
+input {
+    font-size: 1em;
+    padding: .5rem;
+    color: #095066;
+}
+
+button {
+    background-color: #11b6c2;
+    margin: 1em;
+    border-radius: 2px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    min-width: 70px;
+    box-sizing: border-box;
+    /* flexbox */
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    border: none;
+    border-radius: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+    background-color: #cfd8dc;
+}
+
+button:disabled {
+    background-color: #eee;
+    color: #ccc;
+    cursor: auto;
+}
+
+#num {
+    color: #095066;
+    font-weight: bold;
+}
